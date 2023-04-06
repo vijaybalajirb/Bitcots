@@ -1,0 +1,27 @@
+.card-footer {
+    color: black;
+}
+
+.card {
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-text {
+    display: flex;
+    color: white;
+    margin-left: -175px;
+    font-size: 30px;
+    margin-top: -15px;
+}
+
+.card-main {
+    padding: 20px;
+}
+
+.card-img-top {
+    max-width: 100%;
+    display: flex;
+}

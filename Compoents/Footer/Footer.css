@@ -1,0 +1,44 @@
+.footer-container {
+    background-color: black;
+    padding: 30px;
+    color: white;
+}
+
+.quick-links {
+    margin-left: 30px;
+    color: rgb(190, 185, 185);
+}
+
+.copyright {
+    color: gray;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 55px;
+}
+
+.footer-icon {
+    height: 35px;
+    width: 35px;
+    margin-right: 20px;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+}
+
+.footer-store-img {
+    width: 135px;
+    margin-right: 20px;
+}
+
+.footer-microsoft {
+    width: 135px;
+    height: 40px;
+}

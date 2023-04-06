@@ -1,0 +1,35 @@
+{
+  "name": "Assessment",
+  "version": "1.0.0",
+  "description": "Recalling the reactjs",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vijaybalajirb/Recall-Reactjs.git"
+  },
+  "author": "Vijay Balaji",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vijaybalajirb/Recall-Reactjs/issues"
+  },
+  "homepage": "https://github.com/vijaybalajirb/Recall-Reactjs#readme",
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@types/node": "^18.15.11",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.10.0"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}

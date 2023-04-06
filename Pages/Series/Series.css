@@ -1,0 +1,35 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+.card-text {
+    display: flex;
+    color: white;
+    margin-left: -130px;
+    font-size: 30px;
+    margin-top: -15px;
+}
+
+.card-main {
+  padding: 6px;
+}
+  
+  .card-container > div {
+    flex-basis: calc(100% / 8 - 10px);
+    margin-bottom: 20px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    /* .card-container > div {
+      flex-basis: calc(100% / 2 - 10px);
+    } */
+  }
+  
+  @media screen and (max-width: 480px) {
+    .card-container > div {
+      flex-basis: calc(100% / 3 - 10px);
+    }
+  }
+  
